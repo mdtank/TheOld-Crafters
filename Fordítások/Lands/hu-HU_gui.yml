@@ -7,84 +7,84 @@
 
 
 general:
-  wYes: '&aYes'
-  wNo: '&cNo'
+  wYes: '&aIgen'
+  wNo: '&cNem'
   time:
-    days: '&7day(s)'
-    hours: '&7hour(s)'
-    minutes: '&7minute(s)'
-    seconds: '&7second(s)'
+    days: '&7nap(ok)'
+    hours: '&7óra(órák)'
+    minutes: '&7perc(ek)'
+    seconds: '&7másodperc(ek)'
   status:
     online: '&aOnline'
     offline: '&cOffline'
   role:
-    owner: '&4Owner'
-    admin: '&cAdmin'
-    member: '&eMember'
+    owner: '&4Tulajdonos'
+    admin: '&cAdminisztrátor'
+    member: '&eTag'
   defaultLandName: '%player%''s Land'
 
 gui:
   general:
     back:
-      name: '&c&lBack'
-      lore: '&7Go back to&a %to%&7.'
+      name: '&c&lVissza'
+      lore: '&7Vissza a&a %to%&7.'
     close:
       name: '&c&lClose'
       lore: '&7Close this window.'
     previoussite:
-      name: '&c&lPrevious site'
-      lore: '&7Go to previous site.'
+      name: '&c&lElőző telek'
+      lore: '&7Visszamegy az előző telekre.'
     nextSite:
-      name: '&a&lNext site'
-      lore: '&7Go to next site.'
+      name: '&a&lKövetkező telek'
+      lore: '&7A következő telekre megy.'
     noAccess:
-      name: '&c&l&nYou are not allowed to do this'
-      lore: '&7Contact the land &cOwner &7for help.'
+      name: '&c&l&nNincs jogod ezt tenni'
+      lore: '&7Lépj kapcsolatba a &cTulajdonossal &7segítségért.'
     disabled:
-      name: '&c&l&nThis is disabled'
-      lore: '&7An administrator disabled this.'
+      name: '&c&l&nEz ki van kapcsolva'
+      lore: '&7Egy adminisztrátor kikapcsolta ezt a lehetőséget.'
     bypass:
-      name: '&c&l&nBypass needed'
-      lore: '&7You need a bypass permission;;&7to run this action.;;&7Contact an administrator.'
+      name: '&c&l&nÁthaladási engedély szükséges'
+      lore: '&7Áthaladási engedélyt kell kérned;;&7ehhez a művelethez;;&7Üzent egy adminnak!'
     error:
-      name: '&4&l&nError'
-      lore: '&cYou can''t do that.'
+      name: '&4&l&nHiba'
+      lore: '&cEzt nem teheted meg'
   main:
-    title: '&2Lands Menu'
+    title: '&2Telkek Menü'
     lands:
-      name: '&6&l&nLands'
-      lore: '&7Click here to see;;&7all lands you''re in.'
+      name: '&6&l&nTelkek'
+      lore: '&7Kattints ide, hogy;;&7a telkeid kilistázódjanak'
   lands:
-    title: '&2&lLands'
+    title: '&2&lTelkek'
     noLand:
-      name: '&c&lNo land to show'
-      lore: '&7You currently don''t be an;;&7member of an land.;;&7Create one by using &8/&aLand create &8<&aName&8>;;&7or just join an land.'
+      name: '&c&lNincs megmutatható telked!'
+      lore: '&7Jelenleg nem vagy;;&7tag egyetlen telken sem.;;&7Csinálj egyet magadnak a &8/&aLand create &8<&aName&8>;;&7paranccsal vagy csatlakozz egy meglévőhöz.'
     land:
-      lore: '&7World:&e %world%;;&7Chunks:&a %chunks%;;&7Is yours: %owning%'
+      lore: '&7Világ:&e %world%;;&7Chunk:&a %chunks%;;&7A tiéd: %owning%'
   land:
-    title: '&2&lLand'
+    title: '&2&lTelek'
     chunks:
-      name: '&6&l&nChunks'
-      lore: '&7Click here to see;;&7all &achunks &7of this &eland&7.'
+      name: '&6&l&nChunk'
+      lore: '&7Kattints ide, hogy kilistázd;;&7az összes &achunkjait &7ennek a teleknek&7.'
     roles:
-      name: '&6&l&nRoles'
-      lore: '&7Click here to see &amembers &7wich;;&7are trusted in the &ewhole land&7.'
+      name: '&6&l&nSzerepkörök'
+      lore: '&7Kattints ide, hogy kilistázd;;&7az összes &atagot &7, akinek engedélye van a telekhez.'
     invites:
-      name: '&6&l&nInvites'
-      lore: '&7Click here to see &ainvites &7wich;;&7trust players in the &ewhole land;;&7or in &esingle chunks&7.'
+      name: '&6&l&nMeghívók'
+      lore: '&7Kattints ide, hogy kilistázd a &ameghívókat &7wich;;&7akinek engedélye van a telekhez vagy a chunkhoz.'
     rent:
-      name: '&6&l&nRent'
-      lore: '&7Click here to set the land &arent value&7.;;&7Only players, wich are trusted in the;;&ewhole land &7and &cnot just in chunks&7,;;&7will pay this.;;;;&7Players wich are trusted in the whole land;;&7can be found here at the skull item.'
+      name: '&6&l&nBérlés'
+      lore: '&7Kattints ide, hogy a &abérleti díj &7 beállításához.;;&7Csak azoknak kell ezt megfizetni, akinek joga van az egész telken, nem csak ezen a chunkon.;;;;&7Ezek a játékosok a koponya tárgynál láthatóak.'
     settings:
-      name: '&d&lSettings'
-      lore: '&7Click here to edit settings of your land.;;&7Only accessible for the;;&4owner &7of the land. :)'
+      name: '&d&lBeállítások'
+      lore: '&7Kattints ide a telek beállításaihoz.;;&7Csak a tulajdonos számára.'
     info:
       name: '&e&lInfo:'
-      lore: '&7Here you can edit:;;&8- &dChunks;;&8- &dMembers;;&8- &dInvites;;&8- &dTaxes;;;;&7These settings are for the &cwhole land&7.;;&6You can find chunk specific;;&6settings in the chunks section.;;;;&7Land:&a %land%'
+      lore: '&7Itt tudod szerkeszteni:;;&8- &dChunkokat;;&8- &dTagokat;;&8- &dMeghívókat;;&8- &dBérleti díjat;;;;&7Ezek a beállítások az &cegész telekre&7 érvényesek.;;&6Az egyedi chunkokra a;;&6beállításokat a chunk résznél találod.;;;;&7Telek:&a %land%'
   chunks:
-    title: '&6&lChunks'
+    title: '&6&lChunkok'
     chunk:
-      lore: '&7Click here to get more information;;&7about this &achunk&7.'
+      lore: '&7Kattints ide több információhoz;;&7 ezzel a &achunk &7-kal kapcsolatban.'
     info:
       name: '&6&lInfo:'
       lore: '&7Here you can see all &echunks;;&7of this land. Click on them to &eedit&7.;;;;&7Land:&a %land%'
